@@ -259,11 +259,11 @@ which you will submit to sakai as part of your lab submission.
 
 |                   | SQLite    | Postgres  | MySQL     |
 | ----------------- | --------- | --------- | --------- |
-| NUMERIC(10,2)     |           |           |           |
-| NULL              |           |           |           |
-| CHECK             |           |           |           |
-| UNIQUE            |           |           |           |
-| REFERENCES        |           |           |           |
+| NUMERIC(10,2)     | NO        | YES       | YES       |
+| NULL              | YES       | YES       | YES       |
+| CHECK             | YES       | YES       | YES       |
+| UNIQUE            | YES       | YES       | YES       |
+| REFERENCES        | NO        | YES       | NO        |
 
 ### NUMERIC(10,2)
 
